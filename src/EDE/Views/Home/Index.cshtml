@@ -3,7 +3,7 @@
 }
 
 
-<div class="container">
+@*<div class="container">
     <div class="jumbotron">
         <h2>EDE HomePage</h2>
         <p>Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull 
@@ -11,6 +11,60 @@
         Dus alles is wel al gewoon responsive voor mobiel en tablets.<br />links hierboven werken niet.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
     </div>
+</div>*@
+
+<!--breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="active"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+</ol>
+
+
+<div class="container"><!--container puts padding all around itself, whereas container-fluid does not. also bootstrap grids require a container inside of them-->
+
+    <div class="page-header"><!--this is going to both add space around the text as well as enlarge any of the text inside. its also going to provide/an underline after the text is displayed-->
+        <h1>Bootstrap Tutorial</h1>
+    </div>
+
+    <div class="jumbotron"><!--enlarges your fonts, puts everything into a grey box with rounded corners, if used outside a container it will fill the width of whatever screen its on-->
+        <p>Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+        company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+        Dus alles is wel al gewoon responsive voor mobiel en tablets.</p>
+        <p>
+            <!--different ways of buttons-->
+            <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+            <button type="submit" class="btn btn-danger" role="button">Button</button>
+            <input type="button" value="Info" class="btn btn-info" />
+            
+            <button type="submit" class="btn btn-primary btn-sm">Primary</button>
+            <button type="submit" class="btn btn-success btn-xs">Success</button>
+            <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+            <button type="submit" class="btn btn-link btn-lg">Link</button>
+
+            <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+
+            <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+
+            <div class="btn-group btn-group-lg" role="group">
+                <button type="button" class="btn btn-default">First</button>
+                <button type="button" class="btn btn-default">Second</button>
+                <button type="button" class="btn btn-default">Third</button>
+            </div>
+
+
+
+        </p>
+        
+        
+        
+    </div>
+
+
+
+
+
+
 </div>
+
+
 
 

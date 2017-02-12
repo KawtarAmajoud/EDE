@@ -1,10 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"].</h2>
-<h3>@ViewData["Message"]</h3>
 
-<address>
+<!--breadcrumbs-->
+<ol class="breadcrumb">
+    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+    <li class="active"><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+</ol>
+
+
+
+
+@*<address>
     One Microsoft Way<br />
     Redmond, WA 98052-6399<br />
     <abbr title="Phone">P:</abbr>
@@ -14,4 +21,46 @@
 <address>
     <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+</address>*@
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+            <h4><a href="#col1Content" data-toggle="collapse">Column 1</a></h4>
+            <div id="col1Content" class="collapse in"> <!--whenever it first loads on screen its going to be in collapsed mode and if you want it to show by default your going to say "collapse in" instead-->
+                Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+                company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+                Dus alles is wel al gewoon responsive voor mobiel en tablets. Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+                company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+                Dus alles is wel al gewoon responsive voor mobiel en tablets.
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+            <h4><a href="#col2Content" data-toggle="collapse">Column 2</a></h4>
+            <div id="col2Content" class="collapse">
+                Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+                company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+                Dus alles is wel al gewoon responsive voor mobiel en tablets. Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+                company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+                Dus alles is wel al gewoon responsive voor mobiel en tablets.
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h4><a href="#col3Content" data-toggle="collapse">Column 3</a></h4>
+            <div id="col3Content" class="collapse">
+                Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+                company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+                Dus alles is wel al gewoon responsive voor mobiel en tablets. Some random text to see how it looks etc. bla bla it looks etc. bla bla EDE is a succesfull
+                company insha'Allah. Er is niks met css gedaan dit ziet er nog allemal zo uit dmv bootstrap.
+                Dus alles is wel al gewoon responsive voor mobiel en tablets.
+            </div>
+        </div>
+
+
+
+        </div>
+</div>

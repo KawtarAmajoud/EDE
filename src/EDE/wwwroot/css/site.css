@@ -1,5 +1,4 @@
 ﻿body {
-    /*padding-top: 50px; this to prevent content from getting under the navbar but does not work*/
     padding-bottom: 20px;
 }
 
@@ -36,3 +35,10 @@ textarea {
     display: none
   }
 }
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+
+
